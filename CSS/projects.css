@@ -1,9 +1,15 @@
 #project {
     display: flex;
     grid: 1fr 1fr 1fr;
+    gap: 10px;
+
 }
 #project > article{
-
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #07131b;
+    color: white;
+    border-radius: 5px;
 }
 #project > article > .screenshots{
 
@@ -13,9 +19,23 @@
 }
 
 #project > article > .info{
-    position: absolute;
-    background-color: rgba(0,0, 0, .5);
+  margin-top: 10px;
 }
-#project > article:hover > .info{
-    margin-bottom: 30px;
+#project > article > .info > .name {
+    font-weight: 700;
+    font-size: 18px;
+}
+#project > article > .info > .description {
+    font-size:  14px;
+}
+#project > article > .info > a{
+    padding: 5px 15px;
+    margin-top: 15px;
+
+    background-color: #31c4e9;
+    border-radius:  100px;
+    color: white;
+
+    display: inline-flex;
+    float: right;
 }
