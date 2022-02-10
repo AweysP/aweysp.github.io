@@ -1,0 +1,21 @@
+#project {
+    display: flex;
+    grid: 1fr 1fr 1fr;
+}
+#project > article{
+
+}
+#project > article > .screenshots{
+
+}
+#project > article > .screenshots > img {
+    width: 100%;
+}
+
+#project > article > .info{
+    position: absolute;
+    background-color: rgba(0,0, 0, .5);
+}
+#project > article:hover > .info{
+    margin-bottom: 30px;
+}
